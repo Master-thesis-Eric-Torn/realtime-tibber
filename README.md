@@ -1,5 +1,12 @@
 # realtimeTibber
-Get real time data from a Tibber Pulse sensor
+Get real time data from a Tibber Pulse sensor.
+
+```python
+# initialize sensor:
+sensor = realTimeTibberSensor(home)
+# Start real time subscriptionm, and provide a callback to deal with the data:
+sensor.start_rt_subscription(callback)
+```
 
 ## Usage example:
 ```python
