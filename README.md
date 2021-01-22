@@ -1,9 +1,9 @@
 # realtimeTibber
+Get real time data from a Tibber Pulse sensor
 
 ## Usage example:
 ```python
 import tibber
-import asyncio
 from realtimeTibber import realTimeTibberSensor
 
 APIkey = 'your-tibber-key'
