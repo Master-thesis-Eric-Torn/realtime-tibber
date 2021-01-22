@@ -18,6 +18,7 @@ def callback(liveMeasurement):
         print("----")
         print(liveMeasurement)
 
+# If the home has a real-time sensor
 if home.has_real_time_consumption:
     sensor = realTimeTibberSensor(home)
     sensor.start_rt_subscription(callback)
